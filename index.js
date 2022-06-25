@@ -16,7 +16,8 @@ if (player1>player2){
 else if (player2>player1){
   document.querySelector("h1").innerHTML= " Player 2 Wins!🚩";
 }
-else (player1===player2){
+else {
   document.querySelector("h1").innerHTML= "🚩 DRAW🚩";
 }
+
 
