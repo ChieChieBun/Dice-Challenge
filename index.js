@@ -13,10 +13,10 @@ document.querySelector(".img2").setAttribute("src", player2img);
 if (player1>player2){
   document.querySelector("h1").innerHTML= "🚩 Player 1 Wins!";
 }
-if (player2>player1){
+else if (player2>player1){
   document.querySelector("h1").innerHTML= " Player 2 Wins!🚩";
 }
-if (player1===player2){
+else (player1===player2){
   document.querySelector("h1").innerHTML= "🚩 DRAW🚩";
 }
 
